@@ -13,6 +13,27 @@
 		2BBCB8FC2B7CE87100891B95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BBCB8FA2B7CE87100891B95 /* Main.storyboard */; };
 		2BBCB8FE2B7CE87300891B95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BBCB8FD2B7CE87300891B95 /* Assets.xcassets */; };
 		2BBCB9012B7CE87300891B95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BBCB8FF2B7CE87300891B95 /* LaunchScreen.storyboard */; };
+		2BBCB90F2B7CE8AC00891B95 /* OnTheMapModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBCB90A2B7CE8AB00891B95 /* OnTheMapModel.swift */; };
+		2BBCB9102B7CE8AC00891B95 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBCB90B2B7CE8AB00891B95 /* ListViewController.swift */; };
+		2BBCB9112B7CE8AC00891B95 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBCB90C2B7CE8AB00891B95 /* MapViewController.swift */; };
+		2BBCB9122B7CE8AC00891B95 /* OnTheMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBCB90D2B7CE8AB00891B95 /* OnTheMapViewController.swift */; };
+		2BBCB9132B7CE8AC00891B95 /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBCB90E2B7CE8AB00891B95 /* ListTableViewCell.swift */; };
+		2BBCB9162B7CE8D600891B95 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 2BBCB9152B7CE8D600891B95 /* SnapKit */; };
+		2BBCB9182B7CE8D600891B95 /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 2BBCB9172B7CE8D600891B95 /* SnapKit-Dynamic */; };
+		2BBCB91B2B7CE90800891B95 /* GoogleMaps in Frameworks */ = {isa = PBXBuildFile; productRef = 2BBCB91A2B7CE90800891B95 /* GoogleMaps */; };
+		2BBCB91D2B7CE90800891B95 /* GoogleMapsBase in Frameworks */ = {isa = PBXBuildFile; productRef = 2BBCB91C2B7CE90800891B95 /* GoogleMapsBase */; };
+		2BBCB91F2B7CE90800891B95 /* GoogleMapsCore in Frameworks */ = {isa = PBXBuildFile; productRef = 2BBCB91E2B7CE90800891B95 /* GoogleMapsCore */; };
+		2BBCB9212B7CE90800891B95 /* GoogleMapsM4B in Frameworks */ = {isa = PBXBuildFile; productRef = 2BBCB9202B7CE90800891B95 /* GoogleMapsM4B */; };
+		2BBCB9242B7CE93300891B95 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 2BBCB9232B7CE93300891B95 /* Alamofire */; };
+		2BBCB9312B7CE9C200891B95 /* UITableViewCell+Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBCB9262B7CE9C100891B95 /* UITableViewCell+Reusable.swift */; };
+		2BBCB9322B7CE9C200891B95 /* UITableView+Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBCB9272B7CE9C100891B95 /* UITableView+Register.swift */; };
+		2BBCB9332B7CE9C200891B95 /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBCB9292B7CE9C200891B95 /* AppColors.swift */; };
+		2BBCB9342B7CE9C200891B95 /* AppImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBCB92A2B7CE9C200891B95 /* AppImages.swift */; };
+		2BBCB9352B7CE9C200891B95 /* SF-Pro-Display-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2BBCB92C2B7CE9C200891B95 /* SF-Pro-Display-Medium.otf */; };
+		2BBCB9362B7CE9C200891B95 /* SF-Pro-Display-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2BBCB92D2B7CE9C200891B95 /* SF-Pro-Display-Semibold.otf */; };
+		2BBCB9372B7CE9C200891B95 /* SF-Pro-Text-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2BBCB92E2B7CE9C200891B95 /* SF-Pro-Text-Regular.otf */; };
+		2BBCB9382B7CE9C200891B95 /* SF-Pro-Text-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2BBCB92F2B7CE9C200891B95 /* SF-Pro-Text-Semibold.otf */; };
+		2BBCB9392B7CE9C200891B95 /* AppFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBCB9302B7CE9C200891B95 /* AppFonts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +45,20 @@
 		2BBCB8FD2B7CE87300891B95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2BBCB9002B7CE87300891B95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2BBCB9022B7CE87300891B95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BBCB90A2B7CE8AB00891B95 /* OnTheMapModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnTheMapModel.swift; sourceTree = "<group>"; };
+		2BBCB90B2B7CE8AB00891B95 /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		2BBCB90C2B7CE8AB00891B95 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		2BBCB90D2B7CE8AB00891B95 /* OnTheMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnTheMapViewController.swift; sourceTree = "<group>"; };
+		2BBCB90E2B7CE8AB00891B95 /* ListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
+		2BBCB9262B7CE9C100891B95 /* UITableViewCell+Reusable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+Reusable.swift"; sourceTree = "<group>"; };
+		2BBCB9272B7CE9C100891B95 /* UITableView+Register.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Register.swift"; sourceTree = "<group>"; };
+		2BBCB9292B7CE9C200891B95 /* AppColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
+		2BBCB92A2B7CE9C200891B95 /* AppImages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppImages.swift; sourceTree = "<group>"; };
+		2BBCB92C2B7CE9C200891B95 /* SF-Pro-Display-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Medium.otf"; sourceTree = "<group>"; };
+		2BBCB92D2B7CE9C200891B95 /* SF-Pro-Display-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Semibold.otf"; sourceTree = "<group>"; };
+		2BBCB92E2B7CE9C200891B95 /* SF-Pro-Text-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Regular.otf"; sourceTree = "<group>"; };
+		2BBCB92F2B7CE9C200891B95 /* SF-Pro-Text-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Semibold.otf"; sourceTree = "<group>"; };
+		2BBCB9302B7CE9C200891B95 /* AppFonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppFonts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +66,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BBCB9212B7CE90800891B95 /* GoogleMapsM4B in Frameworks */,
+				2BBCB9242B7CE93300891B95 /* Alamofire in Frameworks */,
+				2BBCB91F2B7CE90800891B95 /* GoogleMapsCore in Frameworks */,
+				2BBCB9162B7CE8D600891B95 /* SnapKit in Frameworks */,
+				2BBCB9182B7CE8D600891B95 /* SnapKit-Dynamic in Frameworks */,
+				2BBCB91B2B7CE90800891B95 /* GoogleMaps in Frameworks */,
+				2BBCB91D2B7CE90800891B95 /* GoogleMapsBase in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +98,69 @@
 		2BBCB8F32B7CE87100891B95 /* Google Maps SDK for iOS */ = {
 			isa = PBXGroup;
 			children = (
+				2BBCB9022B7CE87300891B95 /* Info.plist */,
+				2BBCB8FF2B7CE87300891B95 /* LaunchScreen.storyboard */,
 				2BBCB8F42B7CE87100891B95 /* AppDelegate.swift */,
 				2BBCB8F62B7CE87100891B95 /* SceneDelegate.swift */,
+				2BBCB8FD2B7CE87300891B95 /* Assets.xcassets */,
+				2BBCB9082B7CE89500891B95 /* Scenes */,
+				2BBCB9252B7CE9C100891B95 /* Extension */,
+				2BBCB9282B7CE9C200891B95 /* Helpers */,
 				2BBCB8F82B7CE87100891B95 /* ViewController.swift */,
 				2BBCB8FA2B7CE87100891B95 /* Main.storyboard */,
-				2BBCB8FD2B7CE87300891B95 /* Assets.xcassets */,
-				2BBCB8FF2B7CE87300891B95 /* LaunchScreen.storyboard */,
-				2BBCB9022B7CE87300891B95 /* Info.plist */,
 			);
 			path = "Google Maps SDK for iOS";
+			sourceTree = "<group>";
+		};
+		2BBCB9082B7CE89500891B95 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				2BBCB9092B7CE8AB00891B95 /* OnTheMap */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		2BBCB9092B7CE8AB00891B95 /* OnTheMap */ = {
+			isa = PBXGroup;
+			children = (
+				2BBCB90A2B7CE8AB00891B95 /* OnTheMapModel.swift */,
+				2BBCB90B2B7CE8AB00891B95 /* ListViewController.swift */,
+				2BBCB90C2B7CE8AB00891B95 /* MapViewController.swift */,
+				2BBCB90D2B7CE8AB00891B95 /* OnTheMapViewController.swift */,
+				2BBCB90E2B7CE8AB00891B95 /* ListTableViewCell.swift */,
+			);
+			path = OnTheMap;
+			sourceTree = "<group>";
+		};
+		2BBCB9252B7CE9C100891B95 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				2BBCB9262B7CE9C100891B95 /* UITableViewCell+Reusable.swift */,
+				2BBCB9272B7CE9C100891B95 /* UITableView+Register.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		2BBCB9282B7CE9C200891B95 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				2BBCB9292B7CE9C200891B95 /* AppColors.swift */,
+				2BBCB92A2B7CE9C200891B95 /* AppImages.swift */,
+				2BBCB92B2B7CE9C200891B95 /* Fonts */,
+				2BBCB9302B7CE9C200891B95 /* AppFonts.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		2BBCB92B2B7CE9C200891B95 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				2BBCB92C2B7CE9C200891B95 /* SF-Pro-Display-Medium.otf */,
+				2BBCB92D2B7CE9C200891B95 /* SF-Pro-Display-Semibold.otf */,
+				2BBCB92E2B7CE9C200891B95 /* SF-Pro-Text-Regular.otf */,
+				2BBCB92F2B7CE9C200891B95 /* SF-Pro-Text-Semibold.otf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +179,15 @@
 			dependencies = (
 			);
 			name = "Google Maps SDK for iOS";
+			packageProductDependencies = (
+				2BBCB9152B7CE8D600891B95 /* SnapKit */,
+				2BBCB9172B7CE8D600891B95 /* SnapKit-Dynamic */,
+				2BBCB91A2B7CE90800891B95 /* GoogleMaps */,
+				2BBCB91C2B7CE90800891B95 /* GoogleMapsBase */,
+				2BBCB91E2B7CE90800891B95 /* GoogleMapsCore */,
+				2BBCB9202B7CE90800891B95 /* GoogleMapsM4B */,
+				2BBCB9232B7CE93300891B95 /* Alamofire */,
+			);
 			productName = "Google Maps SDK for iOS";
 			productReference = 2BBCB8F12B7CE87100891B95 /* Google Maps SDK for iOS.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +216,11 @@
 				Base,
 			);
 			mainGroup = 2BBCB8E82B7CE87100891B95;
+			packageReferences = (
+				2BBCB9142B7CE8D600891B95 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				2BBCB9192B7CE90800891B95 /* XCRemoteSwiftPackageReference "ios-maps-sdk" */,
+				2BBCB9222B7CE93300891B95 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 2BBCB8F22B7CE87100891B95 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,9 +235,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BBCB9372B7CE9C200891B95 /* SF-Pro-Text-Regular.otf in Resources */,
+				2BBCB9352B7CE9C200891B95 /* SF-Pro-Display-Medium.otf in Resources */,
 				2BBCB9012B7CE87300891B95 /* LaunchScreen.storyboard in Resources */,
+				2BBCB9362B7CE9C200891B95 /* SF-Pro-Display-Semibold.otf in Resources */,
 				2BBCB8FE2B7CE87300891B95 /* Assets.xcassets in Resources */,
 				2BBCB8FC2B7CE87100891B95 /* Main.storyboard in Resources */,
+				2BBCB9382B7CE9C200891B95 /* SF-Pro-Text-Semibold.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,8 +253,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				2BBCB8F92B7CE87100891B95 /* ViewController.swift in Sources */,
+				2BBCB9342B7CE9C200891B95 /* AppImages.swift in Sources */,
+				2BBCB9132B7CE8AC00891B95 /* ListTableViewCell.swift in Sources */,
+				2BBCB9112B7CE8AC00891B95 /* MapViewController.swift in Sources */,
 				2BBCB8F52B7CE87100891B95 /* AppDelegate.swift in Sources */,
+				2BBCB9332B7CE9C200891B95 /* AppColors.swift in Sources */,
+				2BBCB9322B7CE9C200891B95 /* UITableView+Register.swift in Sources */,
 				2BBCB8F72B7CE87100891B95 /* SceneDelegate.swift in Sources */,
+				2BBCB9312B7CE9C200891B95 /* UITableViewCell+Reusable.swift in Sources */,
+				2BBCB9392B7CE9C200891B95 /* AppFonts.swift in Sources */,
+				2BBCB9102B7CE8AC00891B95 /* ListViewController.swift in Sources */,
+				2BBCB9122B7CE8AC00891B95 /* OnTheMapViewController.swift in Sources */,
+				2BBCB90F2B7CE8AC00891B95 /* OnTheMapModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,6 +487,71 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2BBCB9142B7CE8D600891B95 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.0;
+			};
+		};
+		2BBCB9192B7CE90800891B95 /* XCRemoteSwiftPackageReference "ios-maps-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googlemaps/ios-maps-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.4.0;
+			};
+		};
+		2BBCB9222B7CE93300891B95 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.8.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2BBCB9152B7CE8D600891B95 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2BBCB9142B7CE8D600891B95 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		2BBCB9172B7CE8D600891B95 /* SnapKit-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2BBCB9142B7CE8D600891B95 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = "SnapKit-Dynamic";
+		};
+		2BBCB91A2B7CE90800891B95 /* GoogleMaps */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2BBCB9192B7CE90800891B95 /* XCRemoteSwiftPackageReference "ios-maps-sdk" */;
+			productName = GoogleMaps;
+		};
+		2BBCB91C2B7CE90800891B95 /* GoogleMapsBase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2BBCB9192B7CE90800891B95 /* XCRemoteSwiftPackageReference "ios-maps-sdk" */;
+			productName = GoogleMapsBase;
+		};
+		2BBCB91E2B7CE90800891B95 /* GoogleMapsCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2BBCB9192B7CE90800891B95 /* XCRemoteSwiftPackageReference "ios-maps-sdk" */;
+			productName = GoogleMapsCore;
+		};
+		2BBCB9202B7CE90800891B95 /* GoogleMapsM4B */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2BBCB9192B7CE90800891B95 /* XCRemoteSwiftPackageReference "ios-maps-sdk" */;
+			productName = GoogleMapsM4B;
+		};
+		2BBCB9232B7CE93300891B95 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2BBCB9222B7CE93300891B95 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2BBCB8E92B7CE87100891B95 /* Project object */;
 }
